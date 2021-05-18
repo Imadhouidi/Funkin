@@ -260,7 +260,8 @@ class PlayState extends MusicBeatState
 		                  city.updateHitbox();
 		                  add(city);
 
-		                  phillyCityLights = new FlxTypedGroup<FlxSprite>();
+		                add(doof);
+			       phillyCityLights = new FlxTypedGroup<FlxSprite>();
 		                  add(phillyCityLights);
 
 		                  for (i in 0...5)
